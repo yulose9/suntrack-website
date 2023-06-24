@@ -1,0 +1,342 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    min-height: 1080px;
+    width: 100%;
+    background-image: linear-gradient( #F53844 0%, #42378F 100% ) ;
+
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+}
+
+
+.logo{
+    position: absolute;
+    left:55%;
+    top: 10%;
+
+
+}
+
+.lgo-name{
+    position: absolute;
+    left:70%;
+    top: 16%;
+    color: #FFFFFF;
+    font-size: 27px;
+    line-height: 38px;
+   
+
+
+
+}
+.text {
+    position: absolute;
+    width: 580px;
+    height: 155px;
+    bottom: 100px;
+    top: 310px;
+    text-align: center;
+    padding: 15px 7px;
+    left: 660px;
+    background: linear-gradient(0deg, rgba(243, 243, 243, 0.5), rgba(243, 243, 243, 0.5)), #F3F3F3;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 31px;
+    /* or 129% */
+    border-radius: 10px;
+    background-blend-mode: color, luminosity;
+    backdrop-filter: blur(120px);
+    box-shadow: 30px 40px 20px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    
+ 
+    
+   
+    
+
+    
+
+}
+
+
+.input-box{
+    display: flex ;
+    flex-direction: column;
+    width: 330px;
+    box-sizing: border-box;
+    padding-bottom: 440px;
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+.box{
+
+    border-radius: 10px;
+    padding: 12px;
+    width: 316px;
+    margin: 15px;
+    border: 1px solid rgb(234, 234, 234);
+    outline: none;
+    box-shadow: 0px 4px 20px rgba(163, 163, 163, 0.3);
+
+}
+
+#submit{
+    width: 55%;
+    padding: 12px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #F53844;
+    border: 0;
+    font-weight: 700;
+    outline: none;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 20%;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#submit:hover{
+
+    cursor: pointer;
+    background-color: black;
+}
+
+.check-box{
+width: 13px;
+height: 13px;
+margin: 20px 20px 30px ;
+background: #E9E9EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+position: relative;
+opacity: .6;
+}
+.check-box{
+
+    cursor: pointer;
+}
+
+label{
+    color: #777;
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+    left: -9px;
+
+}
+
+.retrieve{
+
+    color: black;
+    font-size: 12px;
+    position: relative;
+    bottom: auto;
+    right: -95px;
+    bottom: -50px;
+
+}
+
+.row{
+
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    min-width: 646px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    font-family: 'SF Pro Display';
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+
+.row button img{
+
+    width:18px;
+    margin-right: 10px;
+
+
+}
+
+.row button{
+
+    width: 245px;
+    height: 40px;
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0;
+    border-radius: 10px;
+    border:1px solid #999;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+    flex-direction: row;
+    color:#FFFFFF;
+  
+    
+
+
+}
+.row hr{
+    border:0;
+    height:1px;
+    background: #c2c2c2;
+    margin: 5px ;
+   
+
+
+   
+
+}
+
+.row span{
+
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -15px;
+ 
+  
+   
+    
+    
+   
+   
+
+}
+.row .apple{
+    background-color: #000000;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+
+   
+    
+    
+   
+}
+
+.row .facebook{
+
+    background-color: #1877F2;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+.row .google{
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    color: rgba(0, 0, 0, 0.54);
+
+}
+
+
+
+
+.social-icons{
+    
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+
+
+}
+
+.row header{
+    position: absolute;
+    top: 7%;
+    right: 40%;
+    display: block;
+    width: 104px;
+    height: 22px;
+    margin-bottom: 45px;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 22px;
+    /* identical to box height, or 61% */
+    letter-spacing: -0.408px;
+    color: #000000;
+
+}
+.alternate {
+
+    position: relative;
+    font-size: 15px;
+    right: -20px;
+    bottom: -120px;
+    color: #9F9F9F;
+    font-weight: 300px;
+ 
+   
+}
+
+.signup{
+
+    color: black;
+    font-size: 12px;
+    position: relative;
+    bottom: auto;
+    right: -60px;
+    top: -90px;
+
+}
+
+
+
+
+
+
